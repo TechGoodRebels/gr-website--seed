@@ -1,0 +1,309 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: seed-theme\n"
+"POT-Creation-Date: 2022-05-25 15:36+0200\n"
+"PO-Revision-Date: 2022-05-25 15:36+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\"Last-Translator: \n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: languages\n"
+
+msgid "Link"
+msgstr "Enlace"
+
+msgid "Class"
+msgstr "Class"
+
+msgid "Add button"
+msgstr "Añadir botón"
+
+msgid "Page not found (404)"
+msgstr "Página no encontrada (404)"
+
+msgid "Main menu"
+msgstr "Menú Principal"
+
+msgid "Footer menu"
+msgstr "Menú Footer"
+
+msgid "There's no items with these filters."
+msgstr "No hay elementos con estos filtros."
+
+msgid "View more"
+msgstr "Ver más"
+
+msgid "Page"
+msgstr "Página"
+
+msgctxt "search"
+msgid "Search by keywords"
+msgstr "Buscar por palabra clave"
+
+msgctxt "search"
+msgid "Search"
+msgstr "Buscar"
+
+msgctxt "search"
+msgid "There's no results for"
+msgstr "No hay resultados para"
+
+msgctxt "search"
+msgid "All results"
+msgstr "Todos los resultados"
+
+msgid "Filter by"
+msgstr "Filtrar por"
+
+msgid "Header"
+msgstr "Header"
+
+msgid "Content"
+msgstr "Contenido"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Auto"
+msgstr "Automático"
+
+msgid "Manual"
+msgstr "Manual"
+
+msgid "Filter"
+msgstr "Filtro"
+
+msgid "Image"
+msgstr "Imagen"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Items per page"
+msgstr "Elementos por página"
+
+msgid "-1 to show all items."
+msgstr "-1 para mostrar todos los elementos."
+
+msgid "Items"
+msgstr "Elementos"
+
+msgid "File"
+msgstr "Archivo"
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "Add item"
+msgstr "Añadir elemento"
+
+msgid "Download"
+msgstr "Descargar"
+
+msgid "Form"
+msgstr "Formulario"
+
+msgid "The forms can be configured in the"
+msgstr "Los formularios se pueden configurar en el"
+
+msgid "following link"
+msgstr "siguiente enlace"
+
+msgid "Style"
+msgstr "Estilo"
+
+msgid "Images"
+msgstr "Imagenes"
+
+msgid "If you don't indicate a title, the page title will be use."
+msgstr "Si no indica un título, se utilizará el título de la página."
+
+msgid "Subtitle"
+msgstr "Subtitulo"
+
+msgid "Go to Home"
+msgstr "Volver a inicio"
+
+msgid "Next"
+msgstr "Siguiente"
+
+msgid "Links"
+msgstr "Enlaces"
+
+msgid "If you don't indicate a image, the featured image will be use."
+msgstr "Si no indica una imagen, se utilizará la imagen destacada."
+
+msgid "Default"
+msgstr "Por defecto"
+
+msgid "View video"
+msgstr "Ver video"
+
+msgid "Container"
+msgstr "Contenedor"
+
+msgid "Number"
+msgstr "Número"
+
+msgid "Items (max)"
+msgstr "Elementos (max.)"
+
+msgid "More info"
+msgstr "Más información"
+
+msgid "View all"
+msgstr "Ver todos"
+
+msgid "Previous"
+msgstr "Anterior"
+
+msgid "All modules"
+msgstr "Todos los módulos"
+
+msgid "Footer"
+msgstr "Footer"
+
+msgid "Logo (Footer)"
+msgstr "Logo (Footer)"
+
+msgid "Claim"
+msgstr "Claim"
+
+msgid "Attribution"
+msgstr "Atribución"
+
+msgid "Add {year} to show the current year."
+msgstr "Añadir {year} para mostrar el año actual."
+
+msgid "Forms"
+msgstr "Formularios"
+
+msgid "Acceptance text"
+msgstr "Texto de aceptación"
+
+msgid "General options"
+msgstr "Opciones generales"
+
+msgid "Theme options"
+msgstr "Opciones del tema"
+
+msgid "Logo"
+msgstr "Logo"
+
+msgid "Can be configured in the"
+msgstr "Se puede configurar en el"
+
+msgid "Pages"
+msgstr "Páginas"
+
+msgid "Social"
+msgstr "Social"
+
+msgid "Social networks"
+msgstr "Redes sociales"
+
+msgid "Social network"
+msgstr "Red social"
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+msgid "Linkedin"
+msgstr "Linkedin"
+
+msgid "Youtube"
+msgstr "Youtube"
+
+msgid "Instagram"
+msgstr "Instagram"
+
+msgid "Add social link"
+msgstr "Añadir red social"
+
+msgid "Theme settings"
+msgstr "Configuración del tema"
+
+msgid "Add new"
+msgstr "Añadir nuevo"
+
+msgid "Not found"
+msgstr "No encontrado"
+
+msgid "Not found in Trash"
+msgstr "No encontrado en la papelera"
+
+msgid "Archive page"
+msgstr "Página de archivo"
+
+msgid "Settings"
+msgstr "Configuración"
+
+msgid "Main content"
+msgstr "Contenido principal"
+
+msgid "General"
+msgstr "General"
+
+msgid "Footer Modules"
+msgstr "Módulos del Footer"
+
+msgid "Add Module"
+msgstr "Añadir Módulo"
+
+msgid "Settings (Posts)"
+msgstr "Configuración (Artículos)"
+
+msgid "Posts per page"
+msgstr "Artículos por página"
+
+msgid "Single Post"
+msgstr "Artículo (Individual)"
+
+msgid "Share"
+msgstr "Compartir"
+
+msgid "Label"
+msgstr "Etiqueta"
+
+msgid "Share buttons"
+msgstr "Botones de compartir"
+
+msgid "The share buttons on the post page."
+msgstr "Los botones de compartir en la páginas de ."
+
+msgid "These modules will appear in the footer of all post pages."
+msgstr "Estos módulos aparecerán en el footer de todas las páginas de artículo."
+
+msgid "Module"
+msgstr "Módulo"
+
+msgid "Is public"
+msgstr "Es publico"
+
+msgid "Back"
+msgstr "Atrás"
+
+msgid "Prev"
+msgstr "Anterior"
+
+msgid "Close"
+msgstr "Cerrar"
+
+msgid "Type to search"
+msgstr "Escriba para buscar"
+
+msgid "Search for:"
+msgstr "Búsqueda para:"
