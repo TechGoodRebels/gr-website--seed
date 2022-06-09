@@ -1,0 +1,60 @@
+//-----------------------------------------------//
+//                                               //
+//  MIXINS                                       //
+//                                               //
+//-----------------------------------------------//
+
+// Set an aspect ratio
+@mixin ratio($w: 1, $h: 1) {
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    padding-top: (($h / $w) * 100%);
+  }
+
+  > * {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+// Remove input pseudoelements
+@mixin remove-input-pseudoelements {
+  -moz-appearance: textfield; // stylelint-disable-line property-no-vendor-prefix
+
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none; // stylelint-disable-line property-no-vendor-prefix
+    margin: 0;
+  }
+
+  &::-webkit-contacts-auto-fill-button,
+  &::-webkit-credentials-auto-fill-button {
+    display: none;
+  }
+
+  &::-webkit-scrollbar {
+    overflow: hidden;
+  }
+
+  &::-webkit-inner-spin-button,
+  &::-webkit-calendar-picker-indicator {
+    -webkit-appearance: none; // stylelint-disable-line property-no-vendor-prefix
+    display: none;
+  }
+
+  // stylelint-disable selector-pseudo-element-no-unknown
+  &::-ms-clear,
+  &::-ms-reveal,
+  &::ms-clear,
+  &::ms-reveal,
+  &::clear,
+  &::reveal {
+    display: none;
+  }
+  // stylelint-enable selector-pseudo-element-no-unknown
+}

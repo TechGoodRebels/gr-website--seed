@@ -1,0 +1,48 @@
+{
+  "name": "goodrebels",
+  "version": "1.0.0",
+  "description": "GoodRebels Theme",
+  "main": "",
+  "scripts": {
+    "start": "node_modules/.bin/gulp build:watch",
+    "build": "node_modules/.bin/gulp build",
+    "watch": "node_modules/.bin/gulp watch",
+    "clean": "node_modules/.bin/gulp clean",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylelint": "stylelint '**/*.scss'",
+    "stylelint-fix": "stylelint '**/*.scss' --fix"
+  },
+  "author": "GoodRebels",
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "dotenv": "^8.6.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-rsync": "0.0.8",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "jshint": "^2.13.0",
+    "sass": "^1.49.0",
+    "postcss": "^8.4.12",
+    "postcss-scss": "^4.0.3",
+    "stylelint": "^14.7.1",
+    "stylelint-config-sass-guidelines": "^9.0.1"
+  },
+  "dependencies": {
+  }
+}

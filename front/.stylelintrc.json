@@ -1,0 +1,77 @@
+{
+    "extends": "stylelint-config-sass-guidelines",
+    "files": ["**/*.scss"],
+    "customSyntax": "postcss-scss",
+    "rules": {
+        "color-named": "always-where-possible",
+        "max-nesting-depth": 5,
+        "selector-max-compound-selectors": 6,
+        "selector-no-qualifying-type": [
+            true,
+            {
+                "ignore": ["attribute", "class", "id"]
+            }
+        ],
+        "scss/dollar-variable-pattern": "^[-a-z0-9]*$",
+        "selector-max-id": 0,
+        "selector-class-pattern": "^([a-z][a-z0-9]*)((_|-)+[a-z0-9]+)*$",
+
+        "no-extra-semicolons": true,
+        "length-zero-no-unit": true,
+        "shorthand-property-no-redundant-values": true,
+        "property-no-vendor-prefix": true,
+        "value-no-vendor-prefix": true,
+        "declaration-no-important": true,
+        "no-eol-whitespace": true,
+        "selector-attribute-brackets-space-inside": "never",
+        "selector-descendant-combinator-no-non-space": true,
+        "selector-combinator-space-after": "always",
+        "selector-combinator-space-before": "always",
+        "selector-list-comma-newline-after": "always",
+
+        "number-no-trailing-zeros": true,
+        "number-leading-zero": "never",
+        "no-duplicate-selectors": true,
+        "max-empty-lines": 1,
+        "selector-max-empty-lines": 0,
+        "value-list-max-empty-lines": 0,
+        "alpha-value-notation": "number",
+        "value-keyword-case": [
+            "lower",
+            {
+                "ignoreProperties": ["animation", "animation-name", "font", "font-family"]
+            }
+        ],
+        "selector-pseudo-class-case": "lower",
+        "selector-pseudo-element-case": "lower",
+        "declaration-block-single-line-max-declarations": 1,
+
+        "rule-empty-line-before": [
+            "always-multi-line",
+            {
+              "except": ["first-nested"],
+              "ignore": ["after-comment"]
+            }
+        ],
+        "at-rule-empty-line-before": [
+            "always",
+            {
+              "except": ["first-nested"],
+              "ignore": ["after-comment", "blockless-after-blockless"]
+            }
+        ],
+        "custom-property-empty-line-before": [
+            "always",
+            {
+              "except": ["after-custom-property", "first-nested"]
+            }
+        ],
+        "declaration-empty-line-before": [
+            "always",
+            {
+              "except": ["after-declaration", "first-nested"]
+            }
+        ],
+        "block-closing-brace-empty-line-before": "never"
+    }
+}

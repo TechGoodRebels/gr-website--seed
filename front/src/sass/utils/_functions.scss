@@ -1,0 +1,37 @@
+//-----------------------------------------------//
+//                                               //
+//  FUCTIONS                                     //
+//                                               //
+//-----------------------------------------------//
+
+// Get slited string
+@function str-split($string, $separator) {
+  $split-arr: (); // Empty array/list
+  $index: str-index($string, $separator); // First index of separator in string
+
+  // Loop through string
+  @while $index != null {
+    $item: str-slice($string, 1, $index - 1); // Get the substring from the first character to the separator
+    $split-arr: append($split-arr, $item);    // Push item to array
+    $string: str-slice($string, $index + 1);  // Remove item and separator from string
+    $index: str-index($string, $separator);   // Find new index of separator
+  }
+
+  // Add the remaining string to list (the last item) and return
+  $split-arr: append($split-arr, $string);
+
+  @return $split-arr;
+}
+
+// Get Cols size
+@function cols($num, $extra: '') {
+  $gutter-count: max(0, ceil($num) - 1);
+
+  @if $gutter-count == 0 {
+    @return calc(#{$num} * var(--col-width) #{$extra});
+  }
+
+  @else {
+    @return calc(#{$num} * var(--col-width) + #{$gutter-count} * var(--gutter-width) #{$extra});
+  }
+}
