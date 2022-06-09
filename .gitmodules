@@ -1,0 +1,3 @@
+[submodule "back/wp-content/themes/gr-base"]
+	path = back/wp-content/themes/gr-base
+	url = https://github.com/TechGoodRebels/gr-wordpress-theme-base.git
