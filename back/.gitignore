@@ -1,0 +1,10 @@
+.DS_Store
+node_modules
+
+wp-environment.php
+wp-cli.phar
+
+wp-content/themes/twenty*
+wp-content/plugins/hello.php
+wp-content/uploads/
+wp-content/upgrade/
